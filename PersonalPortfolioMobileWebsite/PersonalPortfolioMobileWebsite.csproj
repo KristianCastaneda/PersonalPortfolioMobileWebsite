@@ -280,6 +280,8 @@
     <Content Include="Content\jquery.mobile.structure-1.4.5.min.css" />
     <Content Include="Content\jquery.mobile.theme-1.4.5.css" />
     <Content Include="Content\jquery.mobile.theme-1.4.5.min.css" />
+    <Content Include="css\f.css" />
+    <Content Include="css\f.min.css" />
     <Content Include="css\mobile.css" />
     <Content Include="index.html" />
     <Content Include="packages.config" />
