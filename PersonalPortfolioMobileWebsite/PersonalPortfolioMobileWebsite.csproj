@@ -57,6 +57,19 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Content\images\biopic.jpg" />
+    <Content Include="Content\images\facebook.png" />
+    <Content Include="Content\images\github.png" />
+    <Content Include="Content\images\googleplus.png" />
+    <Content Include="Content\images\instagram.png" />
+    <Content Include="Content\images\lexxar.png" />
+    <Content Include="Content\images\mazda.png" />
+    <Content Include="Content\images\twitter.png" />
+    <Content Include="Content\jquery.excoloSlider.css" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -66,6 +79,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\images\ajax-loader.gif" />
+    <Content Include="Content\images\bubbleshooter.png" />
     <Content Include="Content\images\icons-png\action-black.png" />
     <Content Include="Content\images\icons-png\action-white.png" />
     <Content Include="Content\images\icons-png\alert-black.png" />
@@ -138,6 +152,7 @@
     <Content Include="Content\images\icons-png\location-white.png" />
     <Content Include="Content\images\icons-png\lock-black.png" />
     <Content Include="Content\images\icons-png\lock-white.png" />
+    <Content Include="Content\images\logokhc.png" />
     <Content Include="Content\images\icons-png\mail-black.png" />
     <Content Include="Content\images\icons-png\mail-white.png" />
     <Content Include="Content\images\icons-png\minus-black.png" />
@@ -266,6 +281,8 @@
     <Content Include="Content\images\icons-svg\user-white.svg" />
     <Content Include="Content\images\icons-svg\video-black.svg" />
     <Content Include="Content\images\icons-svg\video-white.svg" />
+    <Content Include="Content\images\nutritionfacts.png" />
+    <Content Include="Content\images\registrationform.png" />
     <Content Include="Content\jquery.mobile-1.4.5.css" />
     <Content Include="Content\jquery.mobile-1.4.5.min.css" />
     <Content Include="Content\jquery.mobile.external-png-1.4.5.css" />
@@ -280,14 +297,17 @@
     <Content Include="Content\jquery.mobile.structure-1.4.5.min.css" />
     <Content Include="Content\jquery.mobile.theme-1.4.5.css" />
     <Content Include="Content\jquery.mobile.theme-1.4.5.min.css" />
+    <Content Include="Content\images\projects.jpg" />
+    <Content Include="Content\images\services.jpg" />
     <Content Include="css\f.css" />
     <Content Include="css\f.min.css" />
+    <Content Include="css\jquery.mobile.icons.min.css" />
     <Content Include="css\mobile.css" />
     <Content Include="index.html" />
     <Content Include="packages.config" />
-    <None Include="Scripts\jquery-1.8.0.intellisense.js" />
-    <Content Include="Scripts\jquery-1.8.0.js" />
-    <Content Include="Scripts\jquery-1.8.0.min.js" />
+    <Content Include="Scripts\jquery.excoloSlider.js" />
+    <Content Include="Scripts\jquery.excoloSlider.min.js" />
+    <Content Include="Scripts\jquery.js" />
     <Content Include="Scripts\jquery.mobile-1.4.5.js" />
     <Content Include="Scripts\jquery.mobile-1.4.5.min.js" />
     <None Include="Scripts\_references.js" />

@@ -1042,9 +1042,9 @@ html head + body .ui-body-e.ui-focus {
 html .ui-bar-f .ui-bar-inherit,
 html .ui-body-f .ui-bar-inherit,
 html body .ui-group-theme-f .ui-bar-inherit {
-	background-color: #4C4C4C /*{f-bar-background-color}*/;
+	background-color: #030202 /*{f-bar-background-color}*/;
 	border-color: #dddddd /*{f-bar-border}*/;
-	color: #d1d0cc /*{f-bar-color}*/;
+	color: #ffffff /*{f-bar-color}*/;
 	text-shadow: 0 /*{f-bar-shadow-x}*/ 1px /*{f-bar-shadow-y}*/ 0 /*{f-bar-shadow-radius}*/ #eeeeee /*{f-bar-shadow-color}*/;
 	font-weight: bold;
 }
@@ -1058,7 +1058,7 @@ html body .ui-group-theme-f .ui-bar-inherit {
 .ui-page-theme-f .ui-panel-wrapper {
 	background-color: #353734 /*{f-page-background-color}*/;
 	border-color: #bbbbbb /*{f-page-border}*/;
-	color: #f0f0f0 /*{f-page-color}*/;
+	color: #ffffff /*{f-page-color}*/;
 	text-shadow: 0 /*{f-page-shadow-x}*/ 1px /*{f-page-shadow-y}*/ 0 /*{f-page-shadow-radius}*/ #f3f3f3 /*{f-page-shadow-color}*/;
 }
 /* Body: Read-only lists, text inputs, collapsible content */
@@ -1071,7 +1071,7 @@ html .ui-panel-page-container-f {
 	background-color: #949494 /*{f-body-background-color}*/;
 	border-color: #dddddd /*{f-body-border}*/;
 	color: #ffffff /*{f-body-color}*/;
-	text-shadow: 0 /*{f-body-shadow-x}*/ 1px /*{f-body-shadow-y}*/ 0 /*{f-body-shadow-radius}*/ #f3f3f3 /*{f-body-shadow-color}*/;
+	text-shadow: 0 /*{f-body-shadow-x}*/ 1px /*{f-body-shadow-y}*/ 0 /*{f-body-shadow-radius}*/ #ffffff /*{f-body-shadow-color}*/;
 }
 .ui-body-f {
 	border-width: 1px;
@@ -1115,7 +1115,7 @@ html .ui-bar-f .ui-btn:visited,
 html .ui-body-f .ui-btn:visited,
 html body .ui-group-theme-f .ui-btn:visited,
 html head + body .ui-btn.ui-btn-f:visited {
-	background-color: #32739f /*{f-bup-background-color}*/;
+	background-color: #333333 /*{f-bup-background-color}*/;
 	border-color: #ffffff /*{f-bup-border}*/;
 	color: #ffffff /*{f-bup-color}*/;
 	text-shadow: 0 /*{f-bup-shadow-x}*/ 1px /*{f-bup-shadow-y}*/ 0 /*{f-bup-shadow-radius}*/ #f3f3f3 /*{f-bup-shadow-color}*/;
@@ -1126,7 +1126,7 @@ html .ui-bar-f .ui-btn:hover,
 html .ui-body-f .ui-btn:hover,
 html body .ui-group-theme-f .ui-btn:hover,
 html head + body .ui-btn.ui-btn-f:hover {
-	background-color: #7ab1cc /*{f-bhover-background-color}*/;
+	background-color: #737373 /*{f-bhover-background-color}*/;
 	border-color: #ffffff /*{f-bhover-border}*/;
 	color: #ffffff /*{f-bhover-color}*/;
 	text-shadow: 0 /*{f-bhover-shadow-x}*/ 1px /*{f-bhover-shadow-y}*/ 0 /*{f-bhover-shadow-radius}*/ #f3f3f3 /*{f-bhover-shadow-color}*/;
@@ -1139,7 +1139,7 @@ html body .ui-group-theme-f .ui-btn:active,
 html head + body .ui-btn.ui-btn-f:active {
 	background-color: #e8e8e8 /*{f-bdown-background-color}*/;
 	border-color: #dddddd /*{f-bdown-border}*/;
-	color: #333333 /*{f-bdown-color}*/;
+	color: #ffffff /*{f-bdown-color}*/;
 	text-shadow: 0 /*{f-bdown-shadow-x}*/ 1px /*{f-bdown-shadow-y}*/ 0 /*{f-bdown-shadow-radius}*/ #f3f3f3 /*{f-bdown-shadow-color}*/;
 }
 /* Active button */
@@ -1169,7 +1169,7 @@ html body div.ui-slider-track.ui-body-f .ui-btn-active {
 	background-color: #acb0b4 /*{f-active-background-color}*/;
 	border-color: #f4f5f5 /*{f-active-border}*/;
 	color: #ffffff /*{f-active-color}*/;
-	text-shadow: 0 /*{f-active-shadow-x}*/ 1px /*{f-active-shadow-y}*/ 0 /*{f-active-shadow-radius}*/ #005599 /*{f-active-shadow-color}*/;
+	text-shadow: 0 /*{f-active-shadow-x}*/ 1px /*{f-active-shadow-y}*/ 0 /*{f-active-shadow-radius}*/ #6e7377 /*{f-active-shadow-color}*/;
 }
 /* Active radio button icon */
 .ui-page-theme-f .ui-radio-on:after,
