@@ -146,6 +146,9 @@
 
 /*#endregion*/
 /*#region Services*/
+#serviceBtn{
+    width:200px;
+}
 .serviceContent {
     text-align: center;
     display: block;
