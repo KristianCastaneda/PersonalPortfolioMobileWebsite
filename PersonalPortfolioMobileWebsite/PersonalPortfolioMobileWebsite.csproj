@@ -60,6 +60,7 @@
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Content\images\app-dev.jpg" />
     <Content Include="Content\images\biopic.jpg" />
+    <Content Include="Content\images\mini-biopic.jpg" />
     <Content Include="Content\images\database-image.jpg" />
     <Content Include="Content\images\facebook.png" />
     <Content Include="Content\images\gaming.jpg" />

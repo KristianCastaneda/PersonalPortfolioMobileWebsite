@@ -53,6 +53,7 @@
             </div>
             <hr />
             <!--#region Feature Slider-->
+            <center><h4>Featured Projects</h4></center>
             <div id="slider">
                 <a href="http://kristiancastaneda.github.io/pages/previousprojects/229Assignment04/Assignment04.html">
                     <img id="bubbleshooterImg" src="Content/images/bubbleshooter.png" data-plugin-slide-caption="HTML5 Canvas">
@@ -78,7 +79,7 @@
         <footer data-role="footer" data-position="fixed">
             <h4>Copyright&copy; 2015 - All Rights Reserved</h4>
             <div data-role="listview" data-inset="true" class="viewFull">
-                <a href="http://kristiancastaneda.github.io" rel="external">View Full Site</a>
+                <a id="fullSite" href="http://kristiancastaneda.github.io" rel="external">View Full Site</a>
             </div>
         </footer>
         <!--#endregion-->
@@ -105,9 +106,16 @@
         <!--#region Content-->
         <section data-role="content">
             <!--#region Bio Picture-->
-            <div class="ui-content">
-                <img src="Content/images/biopic.jpg" class="biopic" />
-            </div>
+            <center>
+                <a href="#popupPhoto" data-rel="popup" data-position-to="window" data-transition="fade">
+                    <img class="popphoto" src="Content/images/mini-biopic.jpg" alt="Photo">
+                </a>
+                <div data-role="popup" id="popupPhoto" data-overlay-theme="b" data-theme="b" data-corners="false">
+                    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">
+                        Close
+                    </a><img class="popphoto" src="Content/images/biopic.jpg" alt="Photo">
+                </div>
+            </center>
             <!--#endregion-->
             <!--#region Personal Tagline & Mission Statement-->
             <div data-role="collapsible" class="ui-corner-all custom-corners">
@@ -191,7 +199,7 @@
                             <p>941 Progress Ave., Toronto, ON, M1G 3T8</p>
                             <hr />
                             <h4>Contact Number: </h4>
-                            <p><a href="tel:4161231234">416-123-1234</a></p>
+                            <p><a id="phone" href="tel:4161231234">416-123-1234</a></p>
                         </div>
                         <!--#endregion-->
                     </div>
@@ -286,28 +294,31 @@
                 </div>
                 <div class="ui-grid-b ui-body-f">
                     <div class="ui-block-a div-bubbleshooter">
+                        <h4>Canvas Game</h4>
                         <a href="http://kristiancastaneda.github.io/pages/previousprojects/229Assignment04/Assignment04.html">
                             <img class="bubbleshooter" src="Content/images/bubbleshooter.png" />
                         </a>
                         <a href="http://kristiancastaneda.github.io/pages/previousprojects/229Assignment04/Assignment04.html">
-                            <input data-inline="true" type="button" name="bubbleBtn" value="View Project" />
+                            <input data-inline="true" type="button" name="bubbleBtn" value="View" />
                         </a>
 
                     </div>
                     <div class="ui-block-b div-registration">
+                        <h4>HTML Form</h4>
                         <a href="http://kristiancastaneda.github.io/pages/previousprojects/229Assignment03/assignment3.html">
                             <img class="registration" src="Content/images/registrationform.png" />
                         </a>
                         <a href="http://kristiancastaneda.github.io/pages/previousprojects/229Assignment03/assignment3.html">
-                            <input data-inline="true" type="button" name="bubbleBtn" value="View Project" />
+                            <input data-inline="true" type="button" name="bubbleBtn" value="View" />
                         </a>
                     </div>
                     <div class="ui-block-c div-nutrition">
+                        <h4>XML Page</h4>
                         <a href="http://kristiancastaneda.github.io/pages/previousprojects/Assignment05/Assignment5.xml">
                             <img class="nutrition" src="Content/images/nutritionfacts.png" />
                         </a>
                         <a href="http://kristiancastaneda.github.io/pages/previousprojects/Assignment05/Assignment5.xml">
-                            <input data-inline="true" type="button" name="bubbleBtn" value="View Project" />
+                            <input data-inline="true" type="button" name="bubbleBtn" value="View" />
                         </a>
                     </div>
                 </div>
@@ -317,34 +328,36 @@
             <!--#region Other Projects-->
             <div data-role="collapsible" class="otherProject">
                 <h3>Other Projects</h3>
-                <div class="ui-body-f">
-                    <div class="ui-grid-a">
-                        <div class="ui-block-a">
-                            <a href="http://kristiancastaneda.github.io/pages/previousprojects/Assignment02/Assignment02.html">Green is clean</a>
-                            <p>An HTML web page with a Green Movement Theme.</p>
+                <div class="ui-body-f" >
+                    <div class="ui-grid-a" id="projectList">
+                        <div class="ui-block-a" id="projectBlock">
+                            <a id="otherProjectLink" href="http://kristiancastaneda.github.io/pages/previousprojects/Assignment04/Assignment4.htm">CE Evaluation Form</a>
+                            <p>An HTML Evaluation Form for Centennial College's Continuing Education Course.</p>
                         </div>
-                        <div class="ui-block-b">
-                            <a href="http://kristiancastaneda.github.io/pages/previousprojects/Midterm/300730698midterm213.htm">Red Hot Chili Peppers</a>
-                            <p>An HTML web page featuring the popular band, Red Hot Chili Peppers.</p>
-                        </div>
-                    </div>
-                    <div class="ui-grid-a">
-                        <div class="ui-block-a">
-                            <a href="http://kristiancastaneda.github.io/pages/previousprojects/Assignment03/Assignment3.htm">Mazda 6</a>
+                        <div class="ui-block-b" id="projectBlock">
+                            <a id="otherProjectLink" href="http://kristiancastaneda.github.io/pages/previousprojects/Assignment03/Assignment3.htm">Mazda 6</a>
                             <p>An HTML web page featuring the Mazda 6 with information on details and dealers.</p>
                         </div>
-                        <div class="ui-block-b">
-                            <a href="http://kristiancastaneda.github.io/pages/previousprojects/229Assignment02/Assignment2.htm">Lexar USB Flash Drive</a>
+                    </div>
+                    <hr />
+                    <div class="ui-grid-a" id="projectList">
+                        <div class="ui-block-a" id="projectBlock">
+                            <a id="otherProjectLink" href="http://kristiancastaneda.github.io/pages/previousprojects/Midterm/300730698midterm213.htm">Red Hot Chili Peppers</a>
+                            <p>An HTML web page featuring the popular band, Red Hot Chili Peppers.</p>
+                        </div>
+                        <div class="ui-block-b" id="projectBlock">
+                            <a id="otherProjectLink" href="http://kristiancastaneda.github.io/pages/previousprojects/229Assignment02/Assignment2.htm">Lexar USB Flash Drive</a>
                             <p>An HTML web page featuring Lexar's USB Flash Drives.</p>
                         </div>
                     </div>
-                    <div class="ui-grid-a">
-                        <div class="ui-block-a">
-                            <a href="http://kristiancastaneda.github.io/pages/previousprojects/Assignment04/Assignment4.htm">CE Evaluation Form</a>
-                            <p>An HTML Evaluation Form for Centennial College's Continuing Education Course.</p>
+                    <hr />
+                    <div class="ui-grid-a" id="projectList">
+                        <div class="ui-block-a" id="projectBlock">
+                            <a id="otherProjectLink" href="http://kristiancastaneda.github.io/pages/previousprojects/Assignment02/Assignment02.html">Green is clean</a>
+                            <p>An HTML web page with a Green Movement Theme.</p>
                         </div>
-                        <div class="ui-block-b">
-                            <a href="http://kristiancastaneda.github.io/pages/previousprojects/229Midterm/Midterm300730698.html">Airplane Booking Form</a>
+                        <div class="ui-block-b" id="projectBlock">
+                            <a id="otherProjectLink" href="http://kristiancastaneda.github.io/pages/previousprojects/229Midterm/Midterm300730698.html">Airplane Booking Form</a>
                             <p>An HTML web page for booking flights.</p>
                         </div>
                     </div>
@@ -409,25 +422,24 @@
                             </div>
                         </div>
                         <!--#endregion-->
-                        <!--#region Web Service-->
+                        <!--#region Software Service-->
                         <div class="ui-block-b">
-                            <h4>Web Development</h4>
-                            <img id="webImg" src="Content/images/web-design.jpg" />
-                            <a href="#webPopup" data-rel="popup" data-position-to="window" data-transition="pop" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">
+                            <h4>Software Development</h4>
+                            <img id="softwareImg" src="Content/images/software-dev.jpg" />
+                            <a href="#softwarePopup" data-rel="popup" data-position-to="window" data-transition="pop" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">
                                 View Service Info
                             </a>
-                            <div data-role="popup" id="webPopup" data-overlay-theme="b" data-dismissible="false">
+                            <div data-role="popup" id="softwarePopup" data-overlay-theme="b" data-dismissible="false">
                                 <div data-role="header">
                                     <h1>Service Info</h1>
                                 </div>
                                 <div role="main" class="ui-content">
-                                    <h3 class="ui-title">Web Development</h3>
+                                    <h3 class="ui-title">Software Development</h3>
                                     <p>
-                                        Do you need your own personal website? A website for your business?
-                                        I offer a variety of Web design services, from large database driven
-                                        web sites for the corporate endeavor, to the most economical "brochure-style"
-                                        presence for small business. Whether you’re using an outdated system or looking
-                                        to improve process efficiency and boost your bottom line, I can help.
+                                        I specialize in developing innovative software products for other software and
+                                        technology companies, and I am considered the software outsourcing partner of choice
+                                        by many companies. I have a vast technical skillset and extensive experience developing
+                                        custom software solutions across a range of platforms and technologies.
                                     </p>
                                     <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back">Back</a>
                                 </div>
@@ -462,24 +474,26 @@
                             </div>
                         </div>
                         <!--#endregion-->
-                        <!--#region Software Service-->
+                        
+                        <!--#region Web Service-->
                         <div class="ui-block-b">
-                            <h4>Software Development</h4>
-                            <img id="softwareImg" src="Content/images/software-dev.jpg" />
-                            <a href="#softwarePopup" data-rel="popup" data-position-to="window" data-transition="pop" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">
+                            <h4>Web Development</h4>
+                            <img id="webImg" src="Content/images/web-design.jpg" />
+                            <a href="#webPopup" data-rel="popup" data-position-to="window" data-transition="pop" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">
                                 View Service Info
                             </a>
-                            <div data-role="popup" id="softwarePopup" data-overlay-theme="b" data-dismissible="false">
+                            <div data-role="popup" id="webPopup" data-overlay-theme="b" data-dismissible="false">
                                 <div data-role="header">
                                     <h1>Service Info</h1>
                                 </div>
                                 <div role="main" class="ui-content">
-                                    <h3 class="ui-title">Software Development</h3>
+                                    <h3 class="ui-title">Web Development</h3>
                                     <p>
-                                        I specialize in developing innovative software products for other software and
-                                        technology companies, and I am considered the software outsourcing partner of choice
-                                        by many companies. I have a vast technical skillset and extensive experience developing
-                                        custom software solutions across a range of platforms and technologies.
+                                        Do you need your own personal website? A website for your business?
+                                        I offer a variety of Web design services, from large database driven
+                                        web sites for the corporate endeavor, to the most economical "brochure-style"
+                                        presence for small business. Whether you’re using an outdated system or looking
+                                        to improve process efficiency and boost your bottom line, I can help.
                                     </p>
                                     <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back">Back</a>
                                 </div>

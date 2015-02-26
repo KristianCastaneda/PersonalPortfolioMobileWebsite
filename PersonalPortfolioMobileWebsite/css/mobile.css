@@ -1,10 +1,34 @@
-﻿
-#slider {
+﻿#slider {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
+#fullSite{
+    text-shadow:none;
+    color:#4258FB;
+}
+
+#phone{
+    color:#08178E;
+    text-shadow:none;
+}
+
+.projects{
+    margin-top:10px;
+}
+#otherProjectLink{
+    color:#000000;
+    text-shadow:none;
+}
+#projectList{
+    margin-left:20px;
+    margin-right:20px;
+}
+
+#projectBlock{
+    padding:10px;
+}
 .gradient {
     background: rgba(76,76,76,1);
     background: -moz-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(0,0,0,1) 11%, rgba(0,0,0,1) 89%, rgba(76,76,76,1) 99%, rgba(76,76,76,1) 100%);
@@ -23,13 +47,14 @@
     border-radius: 100px;
     border-top-left-radius: 100px !important;
     border-bottom-left-radius: 100px !important;
-    height: 140px;
-    width: 180px;
+    height: 80px;
+    width: 80px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
 }
+
 
 #logo {
     display: block;
@@ -71,8 +96,8 @@
     border-radius: 100px;
     border-top-left-radius: 100px !important;
     border-bottom-left-radius: 100px !important;
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -82,6 +107,11 @@
 .div-bubbleshooter, .div-registration, .div-nutrition{
     text-align:center;
 }
+
+.div-bubbleshooter, .div-registration, .div-nutrition a input{
+    width:200px;
+}
+
 
 .featuredProject,.otherProject{
     text-align:center;
