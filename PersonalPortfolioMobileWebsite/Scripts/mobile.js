@@ -11,3 +11,10 @@
         interval: 5000
     });
 });
+
+function project() {
+    window.location = '#project';
+}
+function services() {
+    window.location = '#services';
+}

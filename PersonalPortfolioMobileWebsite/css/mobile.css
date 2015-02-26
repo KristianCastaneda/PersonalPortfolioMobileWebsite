@@ -1,56 +1,119 @@
-﻿#slider{
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
+﻿
+#slider {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.gradient{
+.gradient {
     background: rgba(76,76,76,1);
     background: -moz-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(0,0,0,1) 11%, rgba(0,0,0,1) 89%, rgba(76,76,76,1) 99%, rgba(76,76,76,1) 100%);
     background: -webkit-gradient(left top, right top, color-stop(0%, rgba(76,76,76,1)), color-stop(11%, rgba(0,0,0,1)), color-stop(89%, rgba(0,0,0,1)), color-stop(99%, rgba(76,76,76,1)), color-stop(100%, rgba(76,76,76,1)));
     background: -webkit-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(0,0,0,1) 11%, rgba(0,0,0,1) 89%, rgba(76,76,76,1) 99%, rgba(76,76,76,1) 100%);
     background: -o-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(0,0,0,1) 11%, rgba(0,0,0,1) 89%, rgba(76,76,76,1) 99%, rgba(76,76,76,1) 100%);
     background: -ms-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(0,0,0,1) 11%, rgba(0,0,0,1) 89%, rgba(76,76,76,1) 99%, rgba(76,76,76,1) 100%);
-    background: linear-gradient(to right, rgba(76,76,76,1) 0%, rgba(0,0,0,1) 11%, rgba(0,0,0,1) 89%, rgba(76,76,76,1) 99%, rgba(76,76,76,1) 100%);  
-    color:white;
-    font-family:sans-serif,Arial;
+    background: linear-gradient(to right, rgba(76,76,76,1) 0%, rgba(0,0,0,1) 11%, rgba(0,0,0,1) 89%, rgba(76,76,76,1) 99%, rgba(76,76,76,1) 100%);
+    color: white;
+    font-family: sans-serif,Arial;
 }
 
-.projectImage, .serviceImage{
-     -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  border-radius: 100px;
-  border-top-left-radius: 100px !important;
-  border-bottom-left-radius: 100px !important;
-  height:140px;
-  width:180px;
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
-  padding:10px;
+.projectImage, .serviceImage {
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    border-top-left-radius: 100px !important;
+    border-bottom-left-radius: 100px !important;
+    height: 140px;
+    width: 180px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
 }
 
-#logo{
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.biopic{
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
+.navbar {
+    background-color: #333333;
+}
+.li-logo{
+    border-top:solid 1px white;
+}
+.li-back{
+        border-top:solid 1px white;
+        border-left:none;
+}
+.biopic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.viewFull{
+.viewFull {
+    text-align: center;
+}
+
+#facebook, #twitter, #instagram, #github, #googleplus {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 50px;
+}
+
+.bubbleshooter,.registration,.nutrition{
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    border-top-left-radius: 100px !important;
+    border-bottom-left-radius: 100px !important;
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.div-bubbleshooter, .div-registration, .div-nutrition{
     text-align:center;
 }
-#facebook, #twitter, #instagram, #github, #googleplus{
+
+.featuredProject,.otherProject{
+    text-align:center;
+}
+
+.serviceContent{
+    text-align:center;
     display:block;
     margin-left:auto;
     margin-right:auto;
-    height:50px;
-    width:50px;
 }
-.keepConnected{
+
+#databaseImg, #webImg, #mobileImg, #softwareImg, #gameImg{
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    border-top-left-radius: 100px !important;
+    border-bottom-left-radius: 100px !important;
+    height: 120px;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.servicesOffered{
+    text-align:center;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.contactInfo{
 }
