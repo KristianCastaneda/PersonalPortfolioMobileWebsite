@@ -1,34 +1,10 @@
-﻿#slider {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#fullSite{
-    text-shadow:none;
-    color:#4258FB;
-}
-
-#phone{
-    color:#08178E;
-    text-shadow:none;
-}
-
-.projects{
-    margin-top:10px;
-}
-#otherProjectLink{
-    color:#000000;
-    text-shadow:none;
-}
-#projectList{
-    margin-left:20px;
-    margin-right:20px;
-}
-
-#projectBlock{
-    padding:10px;
-}
+﻿/*
+    Filename: PersonalPortfolioWebsite
+    Author: Kristian Castaneda
+    Website Name: Kristian Castaneda's Mobile Website
+    File Description: A personal portfolio mobile website made using JQuery Mobile
+*/
+/*#region General*/
 .gradient {
     background: rgba(76,76,76,1);
     background: -moz-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(0,0,0,1) 11%, rgba(0,0,0,1) 89%, rgba(76,76,76,1) 99%, rgba(76,76,76,1) 100%);
@@ -39,6 +15,41 @@
     background: linear-gradient(to right, rgba(76,76,76,1) 0%, rgba(0,0,0,1) 11%, rgba(0,0,0,1) 89%, rgba(76,76,76,1) 99%, rgba(76,76,76,1) 100%);
     color: white;
     font-family: sans-serif,Arial;
+}
+
+.li-logo {
+    border-top: solid 1px white;
+}
+
+.navbar {
+    background-color: #333333;
+}
+
+.li-back {
+    border-top: solid 1px white;
+    border-left: none;
+}
+
+.viewFull {
+    text-align: center;
+}
+
+#fullSite {
+    text-shadow: none;
+    color: #4258FB;
+}
+/*#endregion*/
+/*#region Homepage*/
+#slider {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .projectImage, .serviceImage {
@@ -54,34 +65,17 @@
     margin-right: auto;
     padding: 10px;
 }
-
-
-#logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.navbar {
-    background-color: #333333;
-}
-.li-logo{
-    border-top:solid 1px white;
-}
-.li-back{
-        border-top:solid 1px white;
-        border-left:none;
-}
+/*#endregion*/
+/*#region About Me*/
 .biopic {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.viewFull {
-    text-align: center;
-}
 
+/*#endregion*/
+/*#region Contact Me*/
 #facebook, #twitter, #instagram, #github, #googleplus {
     display: block;
     margin-left: auto;
@@ -90,7 +84,40 @@
     width: 50px;
 }
 
-.bubbleshooter,.registration,.nutrition{
+.contactInfo {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.socialMedia {
+    margin-top: 20px;
+}
+
+#phone {
+    color: #08178E;
+    text-shadow: none;
+}
+/*#endregion*/
+/*#region Projects*/
+.projects {
+    margin-top: 10px;
+}
+
+#otherProjectLink {
+    color: #000000;
+    text-shadow: none;
+}
+
+#projectList {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#projectBlock {
+    padding: 10px;
+}
+
+.bubbleshooter, .registration, .nutrition {
     -webkit-border-radius: 100px;
     -moz-border-radius: 100px;
     border-radius: 100px;
@@ -104,27 +131,29 @@
     padding: 10px;
 }
 
-.div-bubbleshooter, .div-registration, .div-nutrition{
-    text-align:center;
+.div-bubbleshooter, .div-registration, .div-nutrition {
+    text-align: center;
 }
 
-.div-bubbleshooter, .div-registration, .div-nutrition a input{
-    width:200px;
+    .div-bubbleshooter, .div-registration, .div-nutrition a input {
+        width: 200px;
+    }
+
+
+.featuredProject, .otherProject {
+    text-align: center;
 }
 
-
-.featuredProject,.otherProject{
-    text-align:center;
+/*#endregion*/
+/*#region Services*/
+.serviceContent {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.serviceContent{
-    text-align:center;
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-}
-
-#databaseImg, #webImg, #mobileImg, #softwareImg, #gameImg{
+#databaseImg, #webImg, #mobileImg, #softwareImg, #gameImg {
     -webkit-border-radius: 100px;
     -moz-border-radius: 100px;
     border-radius: 100px;
@@ -138,18 +167,11 @@
     padding: 10px;
 }
 
-.servicesOffered{
-    text-align:center;
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
+.servicesOffered {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.contactInfo{
-    margin-left:20px;
-    margin-right:20px;
-}
-
-.socialMedia{
-    margin-top:20px;
-}
+/*#endregion*/

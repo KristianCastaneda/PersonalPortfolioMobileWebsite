@@ -1,4 +1,12 @@
-﻿$(function () {
+﻿/*
+    Filename: PersonalPortfolioWebsite
+    Author: Kristian Castaneda
+    Website Name: Kristian Castaneda's Mobile Website
+    File Description: A personal portfolio mobile website made using JQuery Mobile
+*/
+
+//Sider Settings
+$(function () {
     $("#slider").excoloSlider({
         autoPlay: true,
         prevnextNav: true,
@@ -12,9 +20,12 @@
     });
 });
 
+//Redirect to project page function
 function project() {
     window.location = '#project';
 }
+
+//Redirect to services page function
 function services() {
     window.location = '#services';
 }
