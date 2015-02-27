@@ -14,7 +14,7 @@
     background: -ms-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(0,0,0,1) 11%, rgba(0,0,0,1) 89%, rgba(76,76,76,1) 99%, rgba(76,76,76,1) 100%);
     background: linear-gradient(to right, rgba(76,76,76,1) 0%, rgba(0,0,0,1) 11%, rgba(0,0,0,1) 89%, rgba(76,76,76,1) 99%, rgba(76,76,76,1) 100%);
     color: white;
-    font-family: sans-serif,Arial;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .li-logo {
