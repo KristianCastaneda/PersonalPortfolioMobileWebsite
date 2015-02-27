@@ -6,7 +6,7 @@
 */
 
 //Sider Settings
-$(function () {
+$(document).ready(function () {
     $("#slider").excoloSlider({
         autoPlay: true,
         prevnextNav: true,
