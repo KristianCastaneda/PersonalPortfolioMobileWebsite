@@ -20,7 +20,7 @@
 
     <!--#endregion-->
 </head>
-<body class="ui-body-f">
+<body class="ui-body-f my-breakpoint">
     <!--#region Home-->
     <div data-role="page" id="home" class="gradient">
         <!--#region Header-->
@@ -48,7 +48,7 @@
                     <a href="#project" data-transition="fade">
                         <img src="Content/images/projects.jpg" class="projectImage" />
                     </a>
-                    <input onclick="project()" type="button" name="projectBtn" value="Projects" />
+                    <input class="btn ui-btn-inline"onclick="project()" type="button" name="projectBtn" value="Projects" />
                 </div>
                 <!--#endregion-->
                 <!--#region Service Link-->
@@ -56,7 +56,7 @@
                     <a href="#services" data-transition="fade">
                         <img src="Content/images/services.jpg" class="serviceImage" />
                     </a>
-                    <input onclick="services()" type="button" name="serviceBtn" value="Services" />
+                    <input class="btn ui-btn-inline" onclick="services()" type="button" name="serviceBtn" value="Services" />
                 </div>
                 <!--#endregion-->
             </div>
@@ -136,7 +136,7 @@
             <!--#region Personal Tagline & Mission Statement Collapsible-->
             <div data-role="collapsible" class="ui-corner-all custom-corners">
                 <!--#region Personal Tagline-->
-                <h3>Creating solutions for all</h3>
+                <h4>Solutions for All</h4>
                 <!--#endregion-->
                 <!--#region Mission Statement-->
                 <p>
@@ -324,10 +324,10 @@
                         <h3>Featured Projects</h3>
                     </center>
                 </div>
-                <div class="ui-grid-b ui-body-f">
+                <div class="ui-grid-b ui-body-f featureContent">
                     <!--#region Feature 1-->
                     <div class="ui-block-a div-bubbleshooter">
-                        <h4>Canvas Game</h4>
+                        <h4>Web Game</h4>
                         <a href="http://kristiancastaneda.github.io/pages/previousprojects/229Assignment04/Assignment04.html">
                             <img class="bubbleshooter" src="Content/images/bubbleshooter.png" />
                         </a>
@@ -443,7 +443,7 @@
                 <div class="ui-bar-f">
                     <h3>Services Offered</h3>
                 </div>
-                <div class="ui-body-f">
+                <div class="ui-body-f serviceInfo">
                     <div class="ui-grid-a">
                         <!--#region Database Service-->
                         <div class="ui-block-a">
